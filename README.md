@@ -190,8 +190,8 @@ export LD_LIBRARY_PATH="/usr/local/cuda-11.4/lib64:$LD_LIBRARY_PATH"
 
 Begin by cloning this repository and all its submodules using the following command:
 ```sh
-$ git clone --recursive https://github.com/nvlabs/instant-ngp
-$ cd instant-ngp
+$ git clone --recursive git@github.com:Mikey-E/instant-ngp-grocery.git
+$ cd instant-ngp-grocery
 ```
 
 Then, use CMake to build the project: (on Windows, this must be in a [developer command prompt](https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-160#developer_command_prompt))
